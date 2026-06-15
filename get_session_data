@@ -1,0 +1,5 @@
+#!/bin/bash
+
+datadir="tutorial"
+echo "Copying session data from ${datadir} into FDTD_tutorial directory"
+cp -a ${CURRENT_SESSION_ROOT}/${datadir} ./FDTD_tutorial
