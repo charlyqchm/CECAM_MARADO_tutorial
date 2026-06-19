@@ -2,8 +2,8 @@
 # This script is used only by the tutor to install DFTB+ and MARADO code.
 #This has to be used just once.
 
-source /course_materials/opt/conda-env/init_dftbplus-serial.sh
-source ${CURRENT_CONDA_OPT}/init_all.sh
+# source /course_materials/opt/conda-env/init_dftbplus-serial.sh
+# source ${CURRENT_CONDA_OPT}/init_all.sh
 
 git clone https://github.com/dftbplus/dftbplus.git
 
